@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechCon-2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-   <header>
-    <h1>Welcome to TechCon-2024</h1>
+   <header classname="hero">
+    <div class="logo">
+     <img src="Images/logo.png">
+     </div>
+    <div classname="hero-text">
+    <h1>TechCon-2024</h1>
     <p>Your gateway to the latest in technology and innovation.</p>
-    <nav>
+    </div>
+    <nav class="navbar">
         <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="schedule.html">Schedule</a></li>
@@ -19,18 +26,75 @@
     </nav>
    </header> 
    <main>
-    <section>
-        <h2>TechCon-2024</h2>
+    <div class="trial">
+        <img src="Images/Cover.jpg">
+    </div>
+   <div class="card-container">
+    <div class="card">
+        <img src="Images/Meeting.jpg">
+        <div class="card-content">
+            <h3>Conference Meetings</h3>
+            <p>Techcon executive board having a meeting on how to perfection these event for future</p>
+            <a href="" class="btn">Click Me!</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images/Pitch.jpg">
+        <div class="card-content">
+            <h3>Pitch time!</h3>
+            <p>Student explaining about her project.The winning project gets a funding and a pass to attend future techcon events to make it easier to network.See if you win we won't forget you!</p>
+            <a href="" class="btn">Click Me!</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images/Quote.jpg">
+        <div class="card-content">
+            <h3>Rule</h3>
+            <p>The motto that keeps us on our feet.</p>
+            <a href="" class="btn">Click Me!</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images/Web.jpg">
+        <div class="card-content">
+            <h3>Who are we?</h3>
+            <p>The web development's profile image.This shows that they know what they are doing.Team work,makes the dream work.</p>
+            <a href="" class="btn">Click Me!</a>
+        </div>
+    </div>
+   </div>
+   <aside>
+    <section class="techcon">
+        <h2 class="tech">TechCon-2024</h2>
+        <div class="Introduction">
         <p>TechCon-2024 is the premier technology conference bringing together industry leaders, innovators, and enthusiasts from around the world. This year's conference focuses on cutting-edge advancements in artificial intelligence, sustainable technology, and digital transformation.</p>
         <p>Attendees can look forward to keynote speeches from industry pioneers, hands-on workshops, and networking opportunities designed to foster collaboration and inspire the next wave of technological breakthroughs. Whether you're a developer, entrepreneur, or tech enthusiast, TechCon 2024 offers a platform to explore future trends and shape the digital landscape</p>
-        <video width="560" height="315" controls>
-            <source src="promo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        </div>
+        
         </section> 
-   </main>
-   <footer>
-    <p>&copy; 2024 TechCon. All rights reserved.</p>
-   </footer>
+   </aside>
+</main>
+<footer style="background-color:#222; color:white; padding:40px 0; text-align:center;">
+  <div style="max-width:800px; margin:0 auto;">
+    <h2 style="margin-bottom:10px;">TechCon</h2>
+    <p style="margin-bottom:20px;">Connecting you with the best content every day.</p>
+    
+    <!-- Social Icons -->
+    <div class="social-icons" style="margin-bottom:20px;">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com/in/sundus-noor--9426a2390" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:sundusnoor89@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+    </div>
+    
+    <p style="font-size:14px;">&copy; 2026 My Website. All rights reserved.</p>
+  </div>
+</footer>
+
+   <script src="index.js"></script>
 </body>
 </html>
